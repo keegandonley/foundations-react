@@ -13,6 +13,13 @@
     ".": "./dist/index.js",
     "./client": "./dist/client/index.js"
   },
+  "typesVersions": {
+    "*": {
+      "client": [
+        "./dist/client/index.d.ts"
+      ]
+    }
+  },
   "devDependencies": {
     "@keegancodes/foundations": "^1.0.21",
     "@types/node": "^20.12.5",
