@@ -1,1 +1,1 @@
-export * from "./TailwindDebugger";
+export * from "./client";
