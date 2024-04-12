@@ -1,0 +1,144 @@
+/* @tailwind base; */
+
+.fixed {
+  position: fixed
+}
+
+.bottom-5 {
+  bottom: 1.25rem
+}
+
+.left-5 {
+  left: 1.25rem
+}
+
+.z-50 {
+  z-index: 50
+}
+
+.flex {
+  display: flex
+}
+
+.hidden {
+  display: none
+}
+
+.h-4 {
+  height: 1rem
+}
+
+.w-px {
+  width: 1px
+}
+
+.resize {
+  resize: both
+}
+
+.items-center {
+  align-items: center
+}
+
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))
+}
+
+.rounded-full {
+  border-radius: 9999px
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity))
+}
+
+.bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity))
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem
+}
+
+.px-2\.5 {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem
+}
+
+.font-medium {
+  font-weight: 500
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+@media (min-width: 640px) {
+  .sm\:inline {
+    display: inline
+  }
+
+  .sm\:hidden {
+    display: none
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:inline {
+    display: inline
+  }
+
+  .md\:hidden {
+    display: none
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:inline {
+    display: inline
+  }
+
+  .lg\:hidden {
+    display: none
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:inline {
+    display: inline
+  }
+
+  .xl\:hidden {
+    display: none
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:inline {
+    display: inline
+  }
+
+  .\32xl\:hidden {
+    display: none
+  }
+}

@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import "../../tw-output.css";
 
 export const TailwindDebugger = () => {
   const [dimensions, setDimensions] = React.useState({ width: 0, height: 0 });
