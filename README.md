@@ -1,17 +1,21 @@
-# @keegancodes/foundations
+# @keegancodes/foundations-react
 
-These are my shared utils and styles I use in most of my projects.
+These are my shared React components I use in most apps
 
-## Styles
-
-```ts
-import "@keegancodes/foundations/dist/main.css";
-```
-
-## Utils
+## Components
 
 ```ts
-import { merge, fallback, injectVariables } from "@keegancodes/foundations";
+import { TailwindDebugger } from "@keegancodes/foundations-react/client";
 ```
+
+Generally rendered conditionally for development only:
+
+```tsx
+{
+  process.env.NODE_ENV === "development" ? <TailwindDebugger /> : null;
+}
+```
+
+> Borrowed from [@ImSh4yy](https://twitter.com/ImSh4yy/status/1778221562606268669)
 
 More docs coming soon
