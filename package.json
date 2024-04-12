@@ -6,8 +6,12 @@
   "author": "Keegan Donley",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf dist/ && tsc",
     "release": "pnpm build && ts-node publish.ts"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./client": "./dist/client/index.js"
   },
   "devDependencies": {
     "@keegancodes/foundations": "^1.0.21",
