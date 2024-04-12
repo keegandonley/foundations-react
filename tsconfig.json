@@ -4,13 +4,7 @@
     "declaration": true,
     "declarationMap": true,
     "jsx": "react",
-    "allowSyntheticDefaultImports": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
-    "moduleResolution": "node"
+    "esModuleInterop": true
   },
   "include": ["src"],
   "exclude": ["node_modules"]
