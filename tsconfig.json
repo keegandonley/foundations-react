@@ -3,10 +3,8 @@
     "outDir": "./dist",
     "declaration": true,
     "declarationMap": true,
-    "jsx": "react-jsx",
-    "esModuleInterop": true,
-    "module": "ESNext",
-    "moduleResolution": "Bundler"
+    "jsx": "react",
+    "esModuleInterop": true
   },
   "include": ["src"],
   "exclude": ["node_modules"]
