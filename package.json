@@ -1,6 +1,6 @@
 {
   "name": "@keegancodes/foundations-react",
-  "version": "3.0.0-rc.0",
+  "version": "3.0.0-rc.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Keegan Donley",
@@ -37,7 +37,6 @@
   "description": "",
   "peerDependencies": {
     "@keegancodes/foundations": "^1.0.21",
-    "@types/react": "^18.2.77",
     "react": "19.0.0-rc-f994737d14-20240522"
   },
   "pnpm": {
