@@ -31,7 +31,7 @@ fs.readFile("./package.json", (err, data) => {
         }
         console.log(stdout);
         console.error(stderr);
-        exec('pnpm publish --access="public"', (err, stdout, stderr) => {
+        exec("pnpm publish", (err, stdout, stderr) => {
           if (err) {
             console.error(err);
             fs.writeFile("./package.json", stringData, () => {
