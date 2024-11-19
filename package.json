@@ -1,6 +1,6 @@
 {
-  "name": "@keegancodes/foundations-react",
-  "version": "3.0.1",
+  "name": "@keegandonley/fitness-embed",
+  "version": "0.0.7",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Keegan Donley",
@@ -11,19 +11,14 @@
     "tailwind": "tailwindcss -i ./src/tw.css -o ./src/tw-output.css"
   },
   "exports": {
-    ".": "./dist/index.js",
-    "./client": "./dist/client/index.js"
+    ".": "./dist/index.js"
   },
   "files": [
     "dist",
     "src"
   ],
   "typesVersions": {
-    "*": {
-      "client": [
-        "./dist/client/index.d.ts"
-      ]
-    }
+    "*": {}
   },
   "devDependencies": {
     "@keegancodes/foundations": "^1.0.21",
@@ -32,12 +27,16 @@
     "react": "19.0.0-rc-02c0e824-20241028",
     "tailwindcss": "^3.4.3",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.4"
+    "typescript": "^5.6.3"
   },
   "description": "",
   "peerDependencies": {
     "@keegancodes/foundations": "^1.0.21",
-    "react": "19.0.0-rc-02c0e824-20241028"
+    "@types/mapbox-gl": "^3.4.1",
+    "fast-xml-parser": "^4.5.0",
+    "mapbox-gl": "^3.8.0",
+    "react": "19.0.0-rc-02c0e824-20241028",
+    "react-map-gl": "^7.1.7"
   },
   "pnpm": {
     "overrides": {
