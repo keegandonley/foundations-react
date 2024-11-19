@@ -1,5 +1,6 @@
 import { XMLParser } from "fast-xml-parser";
 import React from "react";
+import "mapbox-gl/dist/mapbox-gl.css";
 import { Map, Point } from "./Map";
 import "./tw-output.css";
 
