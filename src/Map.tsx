@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import MapElement, { Layer, Source } from "react-map-gl";
-import "mapbox-gl/dist/mapbox-gl.css";
 
 export type Point = {
   latitude: number;
