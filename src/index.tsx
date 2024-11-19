@@ -1,7 +1,6 @@
 import { XMLParser } from "fast-xml-parser";
 import React from "react";
 import MapElement, { Layer, Marker, Source } from "react-map-gl";
-import "mapbox-gl/dist/mapbox-gl.css";
 import { Map, Point } from "./Map";
 
 const defaultPowerZones = {
